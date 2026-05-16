@@ -1,0 +1,14 @@
+{
+  "name": "smart-leads-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Production-grade MERN SaaS CRM dashboard for lead management",
+  "scripts": {
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build:client": "npm run build --prefix client",
+    "build:server": "npm run build --prefix server",
+    "lint": "npm run lint --prefix client && npm run lint --prefix server",
+    "format": "npm run format --prefix client"
+  }
+}
